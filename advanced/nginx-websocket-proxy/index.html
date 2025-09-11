@@ -1,0 +1,336 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <style>::selection {
+  background: #BFC2FF;
+  color: #272B60;
+}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  </head>
+  <body style="padding: 0px;  margin: 0px;  background-color: #131318;  width: 100.0%;  padding: 0px;  margin: 0px;  background-color: #131318;  height: 100.0%;  overflow: hidden;">
+    <script type="text/javascript">document.addEventListener("DOMContentLoaded", () => {
+  const current_page = document.getElementById("current_page");
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  const components = document.getElementById("topics-panel");
+  const sidebarIcon = document.getElementById("sidebarIcon");
+  const navigationButtons = document.getElementById("navigation-buttons");
+
+  if(isMobile){
+      sidebarIcon.textContent = "arrow_right";
+      components.style.display = "none";
+      current_page.style.display = "block";
+      navigationButtons.style.flexDirection = "column";
+      navigationButtons.style.alignItems = "stretch";
+      navigationButtons.style.gap = "15px";
+  }
+  
+});</script>
+    <div style="display: flex; flex-direction: column; top:0; position: sticky;  z-index: 1000; ">
+      <div style="display: flex; flex-direction: row; align-items: center; width: 100.0%;  height: 65px;  background-color: #131318; "><span class="material-symbols-rounded" id="sidebarIcon" style="font-size: 45px; color: #E4E1E9;  cursor: pointer; " onclick="const components = document.getElementById(&quot;topics-panel&quot;);
+const sidebarIcon = document.getElementById(&quot;sidebarIcon&quot;);
+const isMobile = window.matchMedia(&quot;(max-width: 767px)&quot;).matches;
+const current_page = document.getElementById(&quot;current_page&quot;);
+
+if (components.style.display === &quot;none&quot;) {
+    if(isMobile){
+        components.style.width = &quot;100vw&quot;;
+        current_page.style.display = &quot;none&quot;;
+    }
+    sidebarIcon.textContent = &quot;arrow_left&quot;;
+    components.style.display = &quot;block&quot;;
+} else {
+    sidebarIcon.textContent = &quot;arrow_right&quot;;
+    components.style.display = &quot;none&quot;;
+    current_page.style.display = &quot;block&quot;;
+}">arrow_left</span>
+        <div style="font-weight: 700; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 25px; text-align: start; display: inline; user-select: none;">Linkora Sync-Server</div>
+      </div>
+      <div style="width: 100.0%;  height: 1px;  background-color: #918F9A; "></div>
+    </div>
+    <div style="display: flex; flex-direction: row; width: 100.0%;  height: 100.0%;  height: 100%;">
+      <div id="topics-panel" style="display: flex; flex-direction: column; overflow-y: auto; position: sticky;  z-index: 999;  width: 20vw;  background-color: #131318;  padding: 15px; ">
+        <div style="display: flex; flex-direction: column; ">
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Introduction</div>
+            </div>
+          </div>
+          <div style="height: 8px; "></div>
+          <div style="font-weight: 700; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; ">Getting Started</div>
+          <div style="height: 8px; "></div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/getting-started/prerequisites&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Prerequisites</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/getting-started/https&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">HTTPS Setup</div>
+            </div>
+          </div>
+          <div style="height: 8px; "></div>
+          <div style="font-weight: 700; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; ">Configuration</div>
+          <div style="height: 8px; "></div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/configuration/config-file-env-vars&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Config File & Env Vars</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/configuration/database&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Database Setup</div>
+            </div>
+          </div>
+          <div style="height: 8px; "></div>
+          <div style="font-weight: 700; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; ">Deployment</div>
+          <div style="height: 8px; "></div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/deployment/local-jar&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Local JAR</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/deployment/docker&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Docker</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/deployment/cloud&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Cloud Hosting</div>
+            </div>
+          </div>
+          <div style="height: 8px; "></div>
+          <div style="font-weight: 700; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; ">Advanced</div>
+          <div style="height: 8px; "></div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/advanced/systemd&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Systemd Service</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  background-color: #444559;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  background-color: #444559;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/advanced/nginx-websocket-proxy&quot;, &quot;_self&quot;);">
+              <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 5px;  height: 25px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 5px;  height: 25px;  overflow: hidden;  width: 5px;  background-color: #BFC2FF; "></div>
+              <div style="font-weight: 500; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Nginx WebSocket Proxy</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/advanced/firewall&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Firewall Setup</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/advanced/security&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Security Notes</div>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; ">
+            <div style="width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-top: 8.5px;  width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-bottom: 5px;  width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-inline-start: 0px;  width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-inline-end: 0px; "></div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/troubleshooting&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Troubleshooting</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/how-it-works&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">How It Works</div>
+            </div>
+          </div>
+          <div style="height: 2.5px; "></div>
+          <div style="display: flex; flex-direction: row; ">
+            <div style="margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+            <div style="display: flex; flex-direction: row; align-items: center; cursor: pointer;  padding: 5px;  margin: 2px;  clip-path: inset(0.0 0.0 0.0 0.0 round 5px); ;  cursor: pointer;  padding: 5px;  margin: 2px;  overflow: hidden;  user-select: none;" onclick="window.open(&quot;/browser-extension&quot;, &quot;_self&quot;);">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; margin-top: 0px;  margin-bottom: 0px;  margin-inline-start: 0px;  margin-inline-end: 15px; ">Browser Extension</div>
+            </div>
+          </div>
+          <div style="height: 150px; "></div>
+        </div>
+      </div>
+      <div id="current_page" style="display: flex; flex-direction: column; padding: 25px;  flex: 1;
+height: 100%;
+overflow-y: scroll;
+overflow-x: hidden;">
+        <div style="">
+          <div style=""><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 700; color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 32px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Nginx WebSocket Proxy Configuration</div>
+            </span></div>
+          <div style="margin-top: 15px;  margin-bottom: 15px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; "><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">As you can see in the legendary lengthy conversation we had in </div>
+            </span>
+            <div style="font-weight: 600; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline; "><a style = "color: #BFC2FF" href="https://github.com/LinkoraApp/sync-server/issues/5" target="_blank">this issue</a></div>
+<span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">:</div>
+            </span></div>
+          <div style=""><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 600; color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 26px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Problem</div>
+            </span></div>
+          <div style="margin-top: 15px;  margin-bottom: 15px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; "><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">WebSocket connections fail with error: </div>
+            </span><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 15px; text-align: start; display: inline; background-color: #272B60;  border-radius: 4px;  color: #BFC2FF;  padding:2px 4px; font-family: JetBrains Mono;  width: fit-content;  display: inline; ">Handshake exception, expected status code 101 but was 400</div>
+            </span></div>
+          <div style=""><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 600; color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 26px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Solution</div>
+            </span></div>
+          <div style="margin-top: 15px;  margin-bottom: 15px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; "><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Add WebSocket headers to Nginx config:</div>
+            </span></div>
+          <div style="display: flex; flex-direction: column; clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-top: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-bottom: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-start: 0px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-end: 0px; ">
+            <div id="cbea9518-a640-415e-8506-0f80c048b1ba" style="font-weight: 500; color: #BFC2FF; font-size: 16px; text-align: start; display: inline; padding: 12px;  overflow: auto; "><pre>location / {<br>    proxy_pass http://localhost:45454;<br>    proxy_set_header Upgrade $http_upgrade;<br>    proxy_set_header Connection "upgrade";<br>}<br></pre></div>
+            <div style="background-color: #3E4278; "><span class="material-icons" id="copy-btn-cbea9518-a640-415e-8506-0f80c048b1ba" style="margin: 10px;  user-select: none; cursor: pointer;  font-size: 16px;  color: #BFC2FF; " onclick="const icon = document.getElementById('copy-btn-cbea9518-a640-415e-8506-0f80c048b1ba');
+const codeBlock = document.getElementById('cbea9518-a640-415e-8506-0f80c048b1ba');
+const textToCopy = codeBlock.innerText;
+
+if (icon.copyTimeout) {
+    clearTimeout(icon.copyTimeout);
+}
+
+const onCopySuccess = () =&gt; {
+    icon.textContent = 'done';
+    icon.copyTimeout = setTimeout(() =&gt; {
+        icon.textContent = 'content_copy';
+    }, 3000);
+};
+
+if (navigator.clipboard &amp;&amp; navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(textToCopy)
+        .then(() =&gt; {
+            console.log('Copied to clipboard!');
+            onCopySuccess();
+        })
+        .catch(err =&gt; {
+            console.error('Async copy failed: ', err);
+            alert('Failed to copy text.');
+        });
+} else {
+    const textarea = document.createElement('textarea');
+    textarea.value = textToCopy;
+    textarea.style.position = 'fixed';
+    textarea.style.left = '-9999px';
+    document.body.appendChild(textarea);
+    textarea.select();
+    try {
+        document.execCommand('copy');
+        console.log('Copied via execCommand');
+        onCopySuccess();
+    } catch (err) {
+        console.error('Fallback copy failed: ', err);
+        alert('Failed to copy text.');
+    }
+    document.body.removeChild(textarea);
+}">content_copy</span></div>
+          </div>
+          <div style=""><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 600; color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 26px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Why It's Needed</div>
+            </span></div>
+          <div style="margin-top: 15px;  margin-bottom: 15px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; "><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">WebSocket connections require HTTP upgrade headers to switch from HTTP to WebSocket protocol. Without these headers, the handshake fails and real-time sync doesn't work.</div>
+            </span></div>
+          <div style=""><span style="margin-top: 2.5px;  margin-bottom: 2.5px;  margin-inline-start: 0px;  margin-inline-end: 0px;  font-size: 0px; ">
+              <div style="font-weight: 600; color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 26px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Your script should look similar to this:</div>
+            </span></div>
+          <div style="display: flex; flex-direction: column; clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-top: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-bottom: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-start: 0px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-end: 0px; ">
+            <div id="0ae72179-299a-4c2d-a7c8-77f66bef18ce" style="font-weight: 500; color: #BFC2FF; font-size: 16px; text-align: start; display: inline; padding: 12px;  overflow: auto; "><pre>server {<br>    listen 443 ssl default_server;<br>    listen [::]:443 ssl default_server;<br>    listen 80;<br>    server_name your-domain.com;<br>    <br>    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;<br>    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;<br>    <br>    location / {<br>        proxy_pass http://localhost:45454;<br>        proxy_set_header Upgrade $http_upgrade;<br>        proxy_set_header Connection "upgrade";<br>        proxy_set_header Host $host;<br>        proxy_set_header X-Real-IP $remote_addr;<br>    }<br>}<br></pre></div>
+            <div style="background-color: #3E4278; "><span class="material-icons" id="copy-btn-0ae72179-299a-4c2d-a7c8-77f66bef18ce" style="margin: 10px;  user-select: none; cursor: pointer;  font-size: 16px;  color: #BFC2FF; " onclick="const icon = document.getElementById('copy-btn-0ae72179-299a-4c2d-a7c8-77f66bef18ce');
+const codeBlock = document.getElementById('0ae72179-299a-4c2d-a7c8-77f66bef18ce');
+const textToCopy = codeBlock.innerText;
+
+if (icon.copyTimeout) {
+    clearTimeout(icon.copyTimeout);
+}
+
+const onCopySuccess = () =&gt; {
+    icon.textContent = 'done';
+    icon.copyTimeout = setTimeout(() =&gt; {
+        icon.textContent = 'content_copy';
+    }, 3000);
+};
+
+if (navigator.clipboard &amp;&amp; navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(textToCopy)
+        .then(() =&gt; {
+            console.log('Copied to clipboard!');
+            onCopySuccess();
+        })
+        .catch(err =&gt; {
+            console.error('Async copy failed: ', err);
+            alert('Failed to copy text.');
+        });
+} else {
+    const textarea = document.createElement('textarea');
+    textarea.value = textToCopy;
+    textarea.style.position = 'fixed';
+    textarea.style.left = '-9999px';
+    document.body.appendChild(textarea);
+    textarea.select();
+    try {
+        document.execCommand('copy');
+        console.log('Copied via execCommand');
+        onCopySuccess();
+    } catch (err) {
+        console.error('Fallback copy failed: ', err);
+        alert('Failed to copy text.');
+    }
+    document.body.removeChild(textarea);
+}">content_copy</span></div>
+          </div>
+        </div>
+        <div id="navigation-buttons" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100.0%;  margin-top: 15px;  width: 100.0%;  margin-bottom: 15px;  width: 100.0%;  margin-inline-start: 0px;  width: 100.0%;  margin-inline-end: 0px; "><button type="button" id="prev-button" style="cursor: pointer;  border: 1px solid #3E4278; border-radius: 15px;  background-color: #272B60;  display: inline-block; " onclick="window.open(&quot;/advanced/systemd&quot;, &quot;_self&quot;);">
+            <div style="display: flex; flex-direction: column; padding: 5px; ">
+              <div style="color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 12px; text-align: start; display: inline; ">Previous page</div>
+              <div style="font-weight: 700; color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; ">Systemd Service</div>
+            </div>
+          </button><button type="button" id="next-button" style="cursor: pointer;  border: 1px solid #3E4278; border-radius: 15px;  background-color: #272B60;  display: inline-block; " onclick="window.open(&quot;/advanced/firewall&quot;, &quot;_self&quot;);">
+            <div style="display: flex; flex-direction: column; padding: 5px; ">
+              <div style="color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 12px; text-align: start; display: inline; ">Next page</div>
+              <div style="font-weight: 700; color: #BFC2FF; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; ">Firewall Setup</div>
+            </div>
+          </button></div>
+        <div style="display: flex; flex-direction: column; ">
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; ">
+            <div style="width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-top: 8.5px;  width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-bottom: 5px;  width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-inline-start: 0px;  width: 98.0%;  border: 1.15px solid #1e1e2e; border-radius: 5px;  background-color: #1e1e2e;  margin-inline-end: 0px; "></div>
+          </div>
+          <div style="padding-top: 15px;  padding-end: 0px;  padding-start: 0px;  padding-bottom: 0px; "></div>
+<span class="material-icons" style="color: #BFC2FF; ">info</span>
+          <div style="height: 5px; "></div>
+          <div style="color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; "><strong> Last Updated on: </strong> Sep 04, 2025 at 09:39 PM IST</div>
+        </div>
+        <div style="margin-top: 0px;  margin-bottom: 10px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+        <div style="">
+          <div style="font-weight: 400; color: #C5C4DD; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; ">Made with <a style="color: #C5C4DD" href="https://github.com/sakethpathike/genesis" target="_blank">genesis</a>.</div>
+        </div>
+        <div style="margin-top: 0px;  margin-bottom: 200px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
+      </div>
+    </div>
+  </body>
+</html>
