@@ -210,9 +210,9 @@ overflow-x: hidden;">
                   <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Add the configuration below (change values as per your setup):</div>
                 </span></div>
               <div style="display: flex; flex-direction: column; clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-top: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-bottom: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-start: 0px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-end: 0px; ">
-                <div id="10e01f6c-35d6-439c-bfca-6a2c393dcd89" style="font-weight: 500; color: #BFC2FF; font-size: 16px; text-align: start; display: inline; padding: 12px;  overflow: auto; "><pre>[Unit]<br>Description=linkora service<br>After=network.target<br><br>[Service]<br>SuccessExitStatus=143<br>User=root<br>Group=root<br>Type=simple<br>EnvironmentFile=PATH_TO_CONFIG/linkoraConfig.json<br>WorkingDirectory=PATH_TO_JAR_FILE<br>ExecStart=/usr/bin/java -jar linkoraSyncServer.jar<br>ExecStop=/bin/kill -15 $MAINPID<br><br>[Install]<br>WantedBy=multi-user.target<br></pre></div>
-                <div style="background-color: #3E4278; "><span class="material-icons" id="copy-btn-10e01f6c-35d6-439c-bfca-6a2c393dcd89" style="margin: 10px;  user-select: none; cursor: pointer;  font-size: 16px;  color: #BFC2FF; " onclick="const icon = document.getElementById('copy-btn-10e01f6c-35d6-439c-bfca-6a2c393dcd89');
-const codeBlock = document.getElementById('10e01f6c-35d6-439c-bfca-6a2c393dcd89');
+                <div id="91ac1ecf-b4e1-4477-94f9-99f7db401b18" style="font-weight: 500; color: #BFC2FF; font-size: 16px; text-align: start; display: inline; padding: 12px;  overflow: auto; "><pre>[Unit]<br>Description=linkora service<br>After=network.target<br><br>[Service]<br>SuccessExitStatus=143<br>User=root<br>Group=root<br>Type=simple<br>EnvironmentFile=PATH_TO_CONFIG/linkoraConfig.json<br>WorkingDirectory=PATH_TO_JAR_FILE<br>ExecStart=/usr/bin/java -jar linkoraSyncServer.jar<br>ExecStop=/bin/kill -15 $MAINPID<br><br>[Install]<br>WantedBy=multi-user.target<br></pre></div>
+                <div style="background-color: #3E4278; "><span class="material-icons" id="copy-btn-91ac1ecf-b4e1-4477-94f9-99f7db401b18" style="margin: 10px;  user-select: none; cursor: pointer;  font-size: 16px;  color: #BFC2FF; " onclick="const icon = document.getElementById('copy-btn-91ac1ecf-b4e1-4477-94f9-99f7db401b18');
+const codeBlock = document.getElementById('91ac1ecf-b4e1-4477-94f9-99f7db401b18');
 const textToCopy = codeBlock.innerText;
 
 if (icon.copyTimeout) {
@@ -260,9 +260,9 @@ if (navigator.clipboard &amp;&amp; navigator.clipboard.writeText) {
                   <div style="font-weight: 400; color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 18px; text-align: start; display: inline; width: fit-content;  display: inline;  line-height: 1.5; white-space: pre-wrap; word-break: break-word;">Reload the daemon &amp; start the service:</div>
                 </span></div>
               <div style="display: flex; flex-direction: column; clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-top: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-bottom: 10px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-start: 0px;  clip-path: inset(0.0 0.0 0.0 0.0 round 15px); ;  overflow: hidden;  background-color: #1e1e2e;  border: 2.75px solid #3E4278; border-radius: 15px;  margin-inline-end: 0px; ">
-                <div id="5073cab2-d920-4a5e-9fb5-35fa27996efb" style="font-weight: 500; color: #BFC2FF; font-size: 16px; text-align: start; display: inline; padding: 12px;  overflow: auto; "><pre>systemctl daemon-reload<br>systemctl start linkora.service<br>systemctl enable linkora.service<br></pre></div>
-                <div style="background-color: #3E4278; "><span class="material-icons" id="copy-btn-5073cab2-d920-4a5e-9fb5-35fa27996efb" style="margin: 10px;  user-select: none; cursor: pointer;  font-size: 16px;  color: #BFC2FF; " onclick="const icon = document.getElementById('copy-btn-5073cab2-d920-4a5e-9fb5-35fa27996efb');
-const codeBlock = document.getElementById('5073cab2-d920-4a5e-9fb5-35fa27996efb');
+                <div id="ee5f2322-6cc1-4fbe-a9d5-ec0c1bc6483e" style="font-weight: 500; color: #BFC2FF; font-size: 16px; text-align: start; display: inline; padding: 12px;  overflow: auto; "><pre>systemctl daemon-reload<br>systemctl start linkora.service<br>systemctl enable linkora.service<br></pre></div>
+                <div style="background-color: #3E4278; "><span class="material-icons" id="copy-btn-ee5f2322-6cc1-4fbe-a9d5-ec0c1bc6483e" style="margin: 10px;  user-select: none; cursor: pointer;  font-size: 16px;  color: #BFC2FF; " onclick="const icon = document.getElementById('copy-btn-ee5f2322-6cc1-4fbe-a9d5-ec0c1bc6483e');
+const codeBlock = document.getElementById('ee5f2322-6cc1-4fbe-a9d5-ec0c1bc6483e');
 const textToCopy = codeBlock.innerText;
 
 if (icon.copyTimeout) {
@@ -348,7 +348,7 @@ if (navigator.clipboard &amp;&amp; navigator.clipboard.writeText) {
           <div style="padding-top: 15px;  padding-end: 0px;  padding-start: 0px;  padding-bottom: 0px; "></div>
 <span class="material-icons" style="color: #BFC2FF; ">info</span>
           <div style="height: 5px; "></div>
-          <div style="color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; "><strong> Last Updated on: </strong> Sep 03, 2025 at 07:51 PM IST</div>
+          <div style="color: #E4E1E9; font-family: &quot;Inter&quot;; font-size: 16px; text-align: start; display: inline; "><strong> Last Updated on: </strong> Sep 11, 2025 at 04:00 PM IST</div>
         </div>
         <div style="margin-top: 0px;  margin-bottom: 10px;  margin-inline-start: 0px;  margin-inline-end: 0px; "></div>
         <div style="">
