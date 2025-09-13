@@ -23,6 +23,8 @@
       --name linkora-sync-server \
       sakethpathike/linkora-sync-server:latest
     ```
+3. You must set up a reverse proxy like Nginx to make sure apps can connect to the server correctly, as the server forces the use of IPv4 in the environment it's hosted in. This is by design, so you must configure a reverse proxy like Nginx to ensure the connection gets established as expected. See [Nginx Proxy Configuration](/advanced/nginx-websocket-proxy) for reference.
+
 
 ## Notes
 - Docker handles all dependencies automatically
